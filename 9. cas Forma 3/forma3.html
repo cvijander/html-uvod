@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma 3</title>
+</head>
+<body>
+    
+    <h3>Registracija:</h3>
+
+    <form method="GET" action="podaci.html">
+
+        <label for="username">Ime</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="surname">Prezime</label>
+        <input type="text" id="surname" name="surname" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Kontakt telefon</label>
+        <input type="tel" name="phone" id="phone" placeholder="+381 123-321-321"><br><br>
+
+        <label for="adress">Adresa stanovanja</label>
+        <input type="text" name="adress" id="adress"><br><br>
+
+        <label for="city">Grad</label>
+        <select name="city" id="city" multiple size="5">
+            <option value="1">Beograd</option>
+            <option value="2">Novi sad</option>
+            <option value="3">Nis</option>
+            <option value="4">Kragujevac</option>
+            <option value="5">Cacak</option>
+            <option value="6">Pirot</option>
+            <option value="7">Jagodina</option>
+            <option value="8">Pancevo</option>
+        </select>
+         <br><br>
+
+         <label>Vestine:</label> <br>
+
+         <input type="checkbox" id="html" name="html" value="HTML">
+         <label for="html">HTML</label> <br>
+
+         <input type="checkbox" id="css" name="css" value="CSS">
+         <label for="css">CSS</label><br>
+         <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+         <label for="javascript">JavaScript</label><br>
+         <input type="checkbox" id="cphp" name="php" value="PHP">
+         <label for="php">PHP</label><br>
+         <input type="checkbox" id="java" name="java" value="JAVA">
+         <label for="java">JAVA</label><br><br>
+
+         <p>Da li ste trenutno zaposleni?</p>
+         <input type="radio" name="work" id="work1" value="1">
+         <label for="work1">Da</label>
+         <input type="radio" name="work" id="work2" value="2">
+         <label for="work2">Ne</label><br><br>
+
+         
+         <label for="note">Napomena</label><br>
+         <textarea name="note" id="note" rows="10" cols="30"></textarea>
+
+         <br>
+
+         <input type="submit" value="Posalji">
+         <input type="reset" value="Restartuj">
+
+
+    </form>
+</body>
+</html>
